@@ -702,6 +702,7 @@ button:focus {
 }
 
 .subscription-form {
+  display: flex;
   margin-top: 20px;
 }
 
