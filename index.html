@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <Header class="page-header">
+    <header class="page-header">
         <div class="container">
             <nav class="nav">
                 <a lang="en" href="" class="logo link"><span class="accent">Web</span>Studio</a>
@@ -47,7 +47,7 @@
                 </li>
             </ul>
         </div>
-    </Header>
+    </header>
     <main>
         <section class="hero">
             <div class="overlay">
@@ -382,6 +382,25 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="button-modal" data-modal-close>&#10006</button>
+            <p class="text">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="user-form">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name"  />
+
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel" />
+
+                <label for="mail">Почта</label>
+                <input type="email" name="mail" id="mail" />
+
+                <label for="comment">Комментарий</label>
+                <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+
+                <input type="checkbox" name="accept" id="accept" />
+                <label for="accept"><span>Соглашаюсь  с рассылкой и принимаю</span> <a href="">Условия договора</a></label>
+
+                <button type="submit">Отправить</button>
+            </form>
         </div>
     </div>
     <script src="./modal.js"></script>
