@@ -830,11 +830,15 @@ button:focus {
 }
 
 .form-field input {
+  position: relative;
   width: 100%;
   height: 40px;
   margin-bottom: 10px;
 }
 
-.form-field input::placeholder {
-  background-image: url(../imges/desktop.jpg);
+.form-field .icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0;
 }
