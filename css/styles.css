@@ -774,7 +774,6 @@ button:focus {
   left: 50%;
   width: 528px;
   height: 581px;
-  padding: 8px;
 
   transform: translate(-50%, -50%) scale(1);
 
@@ -790,8 +789,7 @@ button:focus {
   display: block;
   width: 30px;
   height: 30px;
-  margin-right: 0;
-  margin-left: auto;
+  margin: 8px 8px 2px auto;
   padding: 6px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -801,4 +799,42 @@ button:focus {
 .button-modal:hover,
 .button-modal:focus {
   cursor: pointer;
+}
+
+.modal .text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--title-text-color);
+}
+
+.user-form {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+.form-field input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.form-field input::placeholder {
+  background-image: url(../imges/desktop.jpg);
 }

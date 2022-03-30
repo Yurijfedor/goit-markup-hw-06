@@ -384,18 +384,22 @@
             <button class="button-modal" data-modal-close>&#10006</button>
             <p class="text">Оставьте свои данные, мы вам перезвоним</p>
             <form class="user-form">
-                <label for="name">Имя</label>
-                <input type="text" name="name" id="name" placeholder="./imges/sprite.svg#icon-username" />
-
-                <label for="tel">Телефон</label>
-                <input type="tel" name="tel" id="tel" />
-
-                <label for="mail">Почта</label>
-                <input type="email" name="mail" id="mail" />
-
-                <label for="comment">Комментарий</label>
-                <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
-
+                <div class="form-field">
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" id="name" placeholder=""/>
+                </div>
+                <div class="form-field">    
+                    <label for="tel">Телефон</label>
+                    <input type="tel" name="tel" id="tel" placeholder=""/>
+                </div>
+                <div class="form-field">
+                    <label for="mail">Почта</label>
+                    <input type="email" name="mail" id="mail" placeholder=""/>
+                </div>
+                <div class="form-field">
+                    <label for="comment">Комментарий</label>
+                    <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                </div>
                 <input type="checkbox" name="accept" id="accept" />
                 <label for="accept"><span>Соглашаюсь  с рассылкой и принимаю</span> <a href="">Условия договора</a></label>
 
