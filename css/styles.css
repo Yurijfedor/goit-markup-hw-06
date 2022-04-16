@@ -685,6 +685,56 @@ button:focus {
   background-color: var(--accent-color);
 }
 
+.subscription {
+  margin-left: auto;
+}
+
+.subscription-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.subscription .text {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.email {
+  width: 358px;
+  height: 50px;
+  background-color: var(--footer-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.email-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.email-button .icon {
+  margin-left: 10px;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -758,52 +808,41 @@ button:focus {
   fill: var(--primary-white-color);
 }
 
-.subscription {
-  margin-left: auto;
-}
-
-.subscription-form {
-  display: flex;
-  margin-top: 20px;
-}
-
-.subscription .text {
-  margin: 0;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-}
-
-.email {
-  width: 358px;
-  height: 50px;
-  background-color: var(--footer-color);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-}
-
-.email-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 12px;
-  width: 200px;
-  height: 50px;
-  font-family: "Roboto";
+.modal .text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 12px;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--title-text-color);
 }
 
-.email-button .icon {
-  margin-left: 10px;
+.user-form {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+/* .form-field input[type="checkbox"] {
+  width: 5px;
+  height: 5px;
+} */
