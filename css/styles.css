@@ -791,8 +791,7 @@ button:focus {
 .button-modal:hover,
 .button-modal:focus {
   cursor: pointer;
-  background-color: var(--accent-color);
-  outline-color: var(--accent-color);
+  outline-color: rgba(0, 0, 0, 0.1);
 }
 
 .icon-close {
@@ -806,7 +805,7 @@ button:focus {
 
 .button-modal:hover .icon-close,
 .button-modal:focus .icon-close {
-  fill: var(--primary-white-color);
+  fill: var(--accent-color);
 }
 
 .modal .text {
