@@ -792,6 +792,7 @@ button:focus {
 .button-modal:focus {
   cursor: pointer;
   background-color: var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 .icon-close {
@@ -863,4 +864,6 @@ button:focus {
   position: absolute;
   top: 29px;
   left: 12px;
+
+  transition: fill 250ms var(--timing-function);
 }
