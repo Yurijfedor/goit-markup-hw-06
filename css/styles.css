@@ -908,11 +908,32 @@ span.accent {
 }
 
 .checkbox-input {
-  margin-right: 8px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .link-checkbox {
   color: var(--accent-color);
+}
+
+.icon-checkbox {
+  display: inline-block;
+  margin-right: 8px;
+  width: 16px;
+  height: 15px;
+  background-image: url(../imges/modal_svg/rectangle.svg);
+}
+
+.checkbox-input:checked + .icon-checkbox {
+  background-image: url(../imges/modal_svg/vector.svg);
 }
 
 .user-form .button {
