@@ -850,11 +850,8 @@ button:focus {
 .form-input:hover,
 .form-input:focus {
   border-color: var(--accent-color);
+  outline-color: var(--accent-color);
   cursor: pointer;
-}
-
-.form-input:active {
-  outline: #2196f3;
 }
 
 .icon-modal {
