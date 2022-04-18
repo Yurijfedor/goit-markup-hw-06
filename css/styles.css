@@ -732,7 +732,7 @@ span.accent {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscription button {
+.subscription .button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -749,7 +749,7 @@ span.accent {
   background-color: var(--accent-color);
 }
 
-.email-button .icon {
+.subscription .icon {
   margin-left: 10px;
 }
 
