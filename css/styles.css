@@ -792,6 +792,7 @@ span.accent {
 .button-modal:focus {
   cursor: pointer;
   outline-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-white-color);
 }
 
 .icon-close {
