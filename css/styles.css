@@ -864,12 +864,3 @@ button:focus {
   top: 29px;
   left: 12px;
 }
-
-.form-input:hover .icon-modal,
-.form-input:focus .icon-modal {
-  fill: var(--accent-color);
-}
-
-.form-field:focus-within > .input {
-  border-color: var(--accent-color);
-}
