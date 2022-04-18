@@ -854,8 +854,8 @@ button:focus {
   cursor: pointer;
 }
 
-.form-input:hover .icon-modal,
-.form-input:focus .icon-modal {
+.form-input:hover + .icon-modal,
+.form-input:focus + .icon-modal {
   fill: var(--accent-color);
 }
 
