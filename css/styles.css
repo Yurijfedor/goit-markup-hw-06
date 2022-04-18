@@ -686,7 +686,7 @@ span.accent {
 }
 
 .subscription {
-  margin-left: auto;
+  margin-left: 93px;
 }
 
 .subscription-form {
@@ -695,17 +695,17 @@ span.accent {
 }
 
 .subscription .text {
-  margin: 0;
-  font-family: Roboto;
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
 
-.email {
+.subscription-field {
+  position: relative;
+}
+
+.subscription-input {
   width: 358px;
   height: 50px;
   background-color: var(--footer-color);
@@ -714,14 +714,27 @@ span.accent {
   border-radius: 4px;
 }
 
-.email-button {
+.subscription-label {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscription button {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 12px;
+
   width: 200px;
   height: 50px;
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
