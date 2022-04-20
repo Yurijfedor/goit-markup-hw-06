@@ -886,8 +886,8 @@ span.accent {
 
 .icon-modal {
   position: absolute;
-  top: 29px;
-  left: 12px;
+  top: 32px;
+  left: 15px;
 
   transition: fill 250ms var(--timing-function);
 }
